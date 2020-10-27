@@ -38,7 +38,7 @@ class ResBot:
         while True:
             for url in self.url_lsit:
                 self.browser.get(url)
-                elem = self.browser.find_elements(By.CLASS_NAME, 'timeOff')
+                elem = self.browser.find_elements(By.CLASS_NAME, 'timeOn')
 
                 if len(elem) > 0:
                     self.bot.sendMessage(chat_id='761691613', text='예약 가능한 시간대 발생')
