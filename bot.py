@@ -8,7 +8,7 @@ from pathlib import Path
 import telegram
 
 url_list = ['http://www.code-k.co.kr/sub/code_sub04_1.html?R_JIJEM=S3&DIS_T=A']
-TELEGRAM_TOKEN = 'AAFC9nZ1HRk1ubPW2pxBJI0P-x6Z3Uu3vNY'
+TELEGRAM_TOKEN = 'xxxxxxxxxxxx'
 
 PROJECT_PATH = Path().absolute()
 DRIVER_PATH = Path("{}/driver/chromedriver".format(PROJECT_PATH))
